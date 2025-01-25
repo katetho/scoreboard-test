@@ -24,8 +24,8 @@ describe('MatchSorter', () => {
     ];
     const sorted = sortMatches(matches);
     expect(sorted).toEqual([
-      { homeTeam: 'Team 1', awayTeam: 'Team 2', homeScore: 1, awayScore: 1, startTime: 1 },
       { homeTeam: 'Team 3', awayTeam: 'Team 4', homeScore: 1, awayScore: 1, startTime: 2 },
+      { homeTeam: 'Team 1', awayTeam: 'Team 2', homeScore: 1, awayScore: 1, startTime: 1 },
     ]);
   });
 
@@ -49,8 +49,8 @@ describe('MatchSorter', () => {
     ];
     const sorted = sortMatches(matches);
     expect(sorted).toEqual([
-      { homeTeam: 'Team 3', awayTeam: 'Team 4', homeScore: 4, awayScore: 1, startTime: 2 },
       { homeTeam: 'Team 1', awayTeam: 'Team 2', homeScore: 3, awayScore: 2, startTime: 3 },
+      { homeTeam: 'Team 3', awayTeam: 'Team 4', homeScore: 4, awayScore: 1, startTime: 2 },
       { homeTeam: 'Team 5', awayTeam: 'Team 6', homeScore: 2, awayScore: 2, startTime: 1 },
     ]);
   });
