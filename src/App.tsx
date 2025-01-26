@@ -1,6 +1,8 @@
+import React from "react";
+import ScoreBoard from "./components/ScoreBoard";
 
-function App() {
-  return <div>Hello</div>
-}
+const App: React.FC = () => {
+  return <ScoreBoard/>;
+};
 
-export default App
+export default App;
