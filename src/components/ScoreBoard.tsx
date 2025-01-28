@@ -32,7 +32,7 @@ const ScoreBoard: React.FC = () => {
 
   return (
     <div>
-      <h1>Live Football World Cup Scoreboard</h1>
+      <h1>Live Football Scoreboard</h1>
 
       {/* Form to start a new game */}
       <div>
